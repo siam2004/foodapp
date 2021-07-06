@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 40px;
+}
+.red-color{
+    color: red;
+}
+h1{
+    
+    size: 50px;
+    font-family: 'STIX Two Math', serif;
+}
+section{ 
+    display: flex;
+}
+.half-width{
+    padding-left: 500;
+    width: 50%;
+    padding-left: 10px;
+}
+.half-width img{
+    
+    size: 50%;
+    width: 100%;
+    
+}
+.link-color{
+    
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(red pink);
+    font-weight: 700;
+}
+p{
+    font-family: 'STIX Two Math', serif;
+    
+}
+.abouttext{
+    font-family: 'STIX Two Math', serif;
+
+}
+.okcolor{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(red pink);
+    font-weight: 700;
+    
+}
+.main{
+ 
+    margin-bottom: 150px;
+}
+.about-me{
+    margin: 0px;
+    background-image: url(img/1.jpg) ;
+}
+.h1text{
+    size: 700;
+}
+.myexc{
+    mar
+}
+.fbg{
+    display: flex;
+
+}
