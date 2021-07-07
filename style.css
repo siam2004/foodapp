@@ -24,8 +24,11 @@ section{
     width: 100%;
     
 }
+.okmp{
+    padding: 20px 0px;
+}
 .link-color{
-    
+   
     text-decoration: none;
     background-color: red;
     padding: 10px 40px;
@@ -42,7 +45,11 @@ p{
     font-family: 'STIX Two Math', serif;
 
 }
+.okm{
+    padding: 10px 40px;
+}
 .okcolor{
+    
     text-decoration: none;
     background-color: red;
     padding: 10px 40px;
@@ -52,16 +59,131 @@ p{
     font-weight: 700;
     
 }
-.main{
- 
-    margin-bottom: 150px;
-}
+
 .about-me{
+   
+    display: flex;
     margin: 0px;
     background-image: url(img/1.jpg) ;
 }
 .h1text{
+    text-align: center;
+    border: 3px solid red;
     size: 700;
 }
+.okvai{
+    margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+    display: flex;
+    float: left;
+    align-self: center;
+}
+.mainmenu{
+    display: flex;
+    float: left;
+    align-items: center;
+}
 
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   
+   .main{
+   
+    margin: 2%;
+   }
+   
+   .card{
+        width: 20%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        margin: 2%;
+        
+       }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+   
+    
+    }
+   
+   .title{
+    
+     text-align: center;
+     padding: 10px;
+     
+    }
+   
+   h1{
+     font-size: 20px;
+    }
+   
+   .des{
+     padding: 3px;
+     text-align: center;
+    
+     padding-top: 10px;
+           border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   button{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }
+   
+
+    
+   
+   .under{
+       display: flex;
+       justify-content: center;
+   }
+
+
+   footer p{
+    padding:0;
+    font-size: 0.8em;
+    color: hsla(0, 50%, 100%, 0.35);
+    margin: 1em 0;
+    font-size: 1rem;
+}
+
+
+
+footer{
+    width: 100%;
+    background: black;
+    color: #fff; 
+    display: grid;
+    place-items: center;
+    padding: 2em; 
+    font-size: 1.2rem;
+}
+
+
+
+
+.sticky-footer{
+    position: sticky;
+    top: 100%;
+}
 
